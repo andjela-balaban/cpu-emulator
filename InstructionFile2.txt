@@ -1,0 +1,15 @@
+ADD R2, R1, #5
+MOV (5), [5]
+MOV [1000], #25
+ADD R1, R2, #3
+MUL R3, R1, R2
+CMP R1, [R2]
+MOV [5], #5
+SUB R0, R3, [1000]
+MUL R1, [4], #2
+DIV R1, [1000], [5]
+ADD R1, R2, R3
+JMP #1
+MOV R1, R2
+MUL R1, (5), R2
+HALT
